@@ -1,0 +1,24 @@
+{
+  "name": "bionuclearapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build/index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.11.5"
+  }
+}
